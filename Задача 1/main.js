@@ -39,7 +39,7 @@ function addItem(arr, element) {
 }
 
 
-addBtn.onclick = function () {
+addBtn.onclick = function ()  {
 	const newItem = prompt('Введите название книги чтобы ее добавть')
 
 	if (newItem !== '') {

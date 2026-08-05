@@ -1,0 +1,23 @@
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+	width: 100%;
+	padding: 0;
+}
+
+
+button {
+	border: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.addHeight {
+	background-color: rgb(80, 132, 2);
+}
+
+.filter {
+	background-color: orange;
+}
