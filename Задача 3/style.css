@@ -1,0 +1,15 @@
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+	width: 100%;
+	padding: 0;
+}
+
+.addProduct {
+	color: white;
+	padding: 10px 15px;
+	background-color: rgb(14, 138, 14);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
