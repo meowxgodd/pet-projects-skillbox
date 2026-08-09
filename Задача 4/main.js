@@ -23,7 +23,7 @@ const users = [
 
 function filterAndSortUsers(users) {
 	const newUsers = users
-		.filter(item => item[1] > 25 && item[2] === true)
+		.filter(item => item[1] > 25 && item[2])
 		.sort((a, b) => a[1] - b[1])
 		.map(item => item[0])
 	return newUsers

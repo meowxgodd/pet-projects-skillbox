@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(40, 39, 39);
+}
+
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+.heroBlock {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.heroTitle {
+	color: azure;
+}
+
+button {
+	background-color: rgb(40, 39, 39);
+	border: none;
+	cursor: pointer;
+
+}
+
+img {
+	max-width: 700px;
+	border-radius: 20px;
+}
+
+.firstImg {
+	max-width: 200px;
+}
+
+.secondImg {
+	max-width: 200px;
+}
+
+.thirdImg {
+	max-width: 200px;
+}
