@@ -46,12 +46,7 @@ function renderResult() {
 	const text = document.createElement('p');
 	text.textContent = `Дополнительные комментарии: ${formText.value}`
 
-	formBlockResult.append(textName)
-	formBlockResult.append(textEmail)
-	formBlockResult.append(textGender)
-	formBlockResult.append(textServise)
-	formBlockResult.append(textInteresting)
-	formBlockResult.append(text)
+	formBlockResult.append(textName, textEmail, textGender, textServise, textInteresting, text)
 }
 
 formName.addEventListener('invalid', function () {
