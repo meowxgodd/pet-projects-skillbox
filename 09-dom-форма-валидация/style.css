@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(189, 187, 187);
+}
+
+
+h2 {
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+.form {
+	margin-bottom: 20px;
+}
+
+.formBlock {
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+
+.radioBlock {
+	display: flex;
+	gap: 10px;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+.checkboxBlock {
+	display: flex;
+	flex-direction: column;
+}
+
+.textarea {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+}
+
+button {
+	background-color: black;
+	padding: 10px;
+	color: white;
+	max-width: 100px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(67, 66, 66);
+	transition: 0.7s;
+}
