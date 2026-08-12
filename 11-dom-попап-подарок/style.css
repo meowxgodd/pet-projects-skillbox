@@ -1,0 +1,42 @@
+body {
+	background-color: rgb(205, 204, 204)
+}
+
+.container {
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	max-width: 500px;
+	min-height: 200px;
+	margin: 250px auto;
+	background-color: #fff;
+}
+
+
+h1 {
+	font-size: 20px;
+}
+
+
+
+img {
+	max-width: 100px;
+}
+
+.imgBlock {
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+}
+
+.block {
+	padding: 40px 0;
+}
+
+button {
+	padding: 10px 15px;
+	background-color: rgb(98, 155, 246);
+	border: none;
+	border-radius: 10px;
+}
