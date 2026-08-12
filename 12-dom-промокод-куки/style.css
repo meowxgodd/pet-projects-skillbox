@@ -1,0 +1,47 @@
+body {
+	background-color: #616060;
+}
+
+
+.container {
+	max-width: 330px;
+	margin: 250px auto;
+	padding: 0;
+
+}
+
+.formBlock {
+	background-color: #fff;
+	padding: 15px 10px;
+	border-radius: 15px;
+}
+
+
+
+.formInput {
+	padding: 15px 20px;
+	border: 1px solid grey;
+	border-radius: 15px;
+	margin-right: 10px;
+}
+
+.inputColor {
+	color: green;
+}
+
+.btnForm {
+	padding: 15px 20px;
+	border: none;
+	border-radius: 15px;
+	background-color: rgb(107, 172, 246);
+	cursor: pointer;
+}
+
+.btnForm:hover {
+	transition: 0.5s;
+	background-color: rgb(21, 125, 244);
+}
+
+.valueBlock {
+	display: flex;
+}
