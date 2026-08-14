@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form id="basic_form" class="form">
+				<div class="form__wrap">
+					<input
+						id="basic_name"
+						type="text"
+						placeholder="Введите имя"
+						class="form__inp"
+					/>
+				</div>
+				<div class="form__wrap">
+					<input
+						id="basic_email"
+						type="text"
+						placeholder="Введите email"
+						class="form__inp"
+					/>
+				</div>
+				<div class="form__wrap">
+					<input
+						id="basic_age"
+						type="text"
+						placeholder="Введите возраст"
+						class="form__inp"
+					/>
+				</div>
+				<div class="form__wrap">
+					<textarea id="msg" class="form__inp"></textarea>
+				</div>
+				<div class="blockBtn">
+					<button type="submit" class="form__btn">Отправить</button>
+				</div>
+			</form>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
